@@ -6,7 +6,7 @@ class Dog
   def initialize(name:, breed:, id: nil)
     @name = name
     @breed = breed
-    @id = id 
+    @id = id
   end
 
   def self.create_table
@@ -90,6 +90,9 @@ class Dog
       self.new_from_db(row)
     end
   end
+
+  def self.find_or_create_by
+  end 
 
 
 
