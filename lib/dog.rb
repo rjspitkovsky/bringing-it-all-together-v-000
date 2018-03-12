@@ -91,8 +91,8 @@ class Dog
     end
   end
 
-  def self.find_or_create_by
-  end 
+  def self.find_or_create_by(:name, :breed)
+  end
 
 
 
